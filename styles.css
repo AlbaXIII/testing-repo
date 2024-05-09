@@ -13,17 +13,18 @@ body {
 
 header {
     background-color: lightcoral;
-    position: fixed;
-    z-index: 99;
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-items: baseline;
 }
 
 main {
     background-color: lightblue;
     flex: 1 0 auto;
+}
+
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url(pexels-gustavo-fring-4173104.jpg) no-repeat center center-cover;
+    position: relative;
 }
 
 footer {
