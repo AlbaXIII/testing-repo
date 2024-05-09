@@ -30,3 +30,23 @@ footer {
     border-radius: 3px;
     text-decoration: none;
 }
+
+label, input {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    position: relative;
+    overflow: hidden;
+    height: 0;
+    flex: auto;
+}
+
+.map {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
