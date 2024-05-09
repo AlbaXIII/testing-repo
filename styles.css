@@ -16,14 +16,13 @@ header {
 }
 
 main {
-    background-color: lightblue;
     flex: 1 0 auto;
 }
 
 #hero {
     height: 600px;
     width: 100%;
-    background: url(pexels-gustavo-fring-4173104.jpg) no-repeat center center-cover;
+    background: url('pexels-gustavo-fring-4173104.jpg') no-repeat center center-cover;
     position: relative;
 }
 
