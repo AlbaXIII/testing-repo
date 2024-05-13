@@ -27,6 +27,11 @@ main {
     z-index: 99;
 }
 
+#text-box {
+    background-color: gray;
+    position: absolute;
+}
+
 footer {
     background-color: orange;
 }
