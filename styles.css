@@ -24,6 +24,7 @@ main {
     width: 100%;
     background: url('pexels-gustavo-fring-4173104.jpg') no-repeat center center-cover;
     position: relative;
+    z-index: 99;
 }
 
 footer {
